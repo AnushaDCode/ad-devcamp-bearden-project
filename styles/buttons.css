@@ -1,0 +1,62 @@
+/* Nav Button styles */
+
+.right-column > .buttons-wrapper > .button {
+    color: white;
+    font-weight: bolder;
+}
+
+.nav-bar > .right-column > .buttons-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar > .right-column > .buttons-wrapper > .buttons > .button {
+    margin: 10px;
+    background-color: rgb(57, 61, 66);
+    color: white;
+    font-size: 1.25em;
+    padding: 15px 25px;
+    border: 1px solid rgb(57, 61, 66);
+    border-radius: 2px;
+    outline: none;
+}
+
+.nav-bar > .right-column > .buttons-wrapper > .buttons > .button i{
+    color: rgb(51, 255, 0);
+}
+
+/* Main Content Buttons */
+
+.main-content > .text > .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content > .text > .main-buttons > .button > .sign-up-button {
+    margin: 10px;
+    background-color: rgb(39, 204, 127);
+    color:black;
+    font-size: 2em;
+    padding: 15px 25px;
+    border: 1px solid rgb(39, 204, 127);
+    border-radius: 5px;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-content > .text > .main-buttons > .button > .learn-button {
+    margin: 10px;
+    background-color: black;
+    color:white;
+    font-size: 2em;
+    padding: 15px 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    position: relative;
+    top: -90px;
+    left: 350px;
+}
+
